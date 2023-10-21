@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "money",
+    "description": "money",
+    "uuid": "849a94b2-69e4-47ad-a16d-9e9d17abb01e",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "d29ebf3c-60ef-4e1f-a846-ecbde35ac4a9",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8155ea84-27c2-404d-8b82-671672391c66",
+      "version": [0, 0, 1]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ]
+}
